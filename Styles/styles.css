@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    /*Primary*/
+    --softBlue: hsl(215, 51%, 70%); 
+    --cyan: hsl(178, 100%, 50%);
+    /*Neutral*/
+    --veryDarkBlue-mainBG: hsl(217, 54%, 11%);
+    --veryDarkBlue-cardBG: hsl(216, 50%, 16%);
+    --veryDarkBlue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    /*attribution*/
+    --attribution-color: hsl(228, 45%, 44%);
+}
+
+* {
+    font-size: 18px;
+}
+
+
+
+
+
 
 
 
@@ -7,5 +30,5 @@
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%);
+    color: var(--attribution-color);
 }
