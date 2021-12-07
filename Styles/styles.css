@@ -38,10 +38,10 @@
 }
 
 .mainImg:hover {
-    /*content: url();*/
+    background-color: var(--cyan) ;
     cursor: pointer;
     position: relative;
-    filter: hue-rotate(45deg);
+    /*filter: hue-rotate(117deg);*/
     transition: filter 700ms linear 700ms;
 
     
