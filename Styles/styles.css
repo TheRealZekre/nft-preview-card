@@ -38,9 +38,15 @@
 }
 
 .mainImg:hover {
+    /*content: url();*/
     cursor: pointer;
+    position: relative;
+    filter: hue-rotate(45deg);
+    transition: filter 700ms linear 700ms;
+
     
 }
+
 
 .headerH1 {
     color: var(--white);
