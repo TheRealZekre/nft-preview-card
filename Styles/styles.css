@@ -15,6 +15,7 @@
 
 * {
     font-size: 18px;
+    font-family: Outfit;
     background-color: var(--veryDarkBlue-mainBG);
     
 }
@@ -43,7 +44,6 @@
     position: relative;
     /*filter: hue-rotate(117deg);*/
     transition: filter 700ms linear 700ms;
-
     
 }
 
@@ -59,6 +59,8 @@
 }
 
 .info {
+    display: flex;
+    justify-content: space-between;
     background-color: var(--veryDarkBlue-cardBG);
 }
 
@@ -87,8 +89,8 @@
 }
 
 .avatar {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background-color: var(--veryDarkBlue-cardBG);
 }
 
