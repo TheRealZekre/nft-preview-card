@@ -15,9 +15,11 @@
 
 * {
     font-size: 18px;
-    font-family: Outfit;
-    background-color: var(--veryDarkBlue-mainBG);
+    font-family: Outfit;    
     
+}
+body {
+    background: var(--veryDarkBlue-mainBG);
 }
 
 .main {
@@ -50,28 +52,28 @@
 
 .headerH1 {
     color: var(--white);
-    background-color: var(--veryDarkBlue-cardBG);
+    
 }
 
 .paragraph {
     color: var(--softBlue);
-    background-color: var(--veryDarkBlue-cardBG);
+    
 }
 
 .info {
     display: flex;
     justify-content: space-between;
-    background-color: var(--veryDarkBlue-cardBG);
+    
 }
 
 .currency {
     color: var(--cyan);
-    background-color: var(--veryDarkBlue-cardBG);
+    
 }
 
 .days {
     color: var(--softBlue);
-    background-color: var(--veryDarkBlue-cardBG);
+    
 }
 
 .line {
@@ -81,22 +83,22 @@
 .creation {
     display: flex;
     color: var(--softBlue);
-    background-color: var(--veryDarkBlue-cardBG);
+    
 }
 
 .julesP {
-    background-color: var(--veryDarkBlue-cardBG);
+    
 }
 
 .avatar {
     height: 40px;
     width: 40px;
-    background-color: var(--veryDarkBlue-cardBG);
+    
 }
 
 .jules {
     color: var(--white);
-    background-color: var(--veryDarkBlue-cardBG);
+    
 }
 
 
