@@ -88,9 +88,17 @@ body {
     
 }
 
-.info {
+.info {    
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;    
+    justify-content: space-around;
+    
+}
+.ethereum, .clock {
+       
+    
+}
+.ethereum-img {
     
 }
 
