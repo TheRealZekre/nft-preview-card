@@ -45,13 +45,15 @@ body {
 
 .hover {
     position: absolute;
+    top: 2.4rem;
+    left: auto;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 18rem;
     height: 18rem;
-    top: auto;
-    left: auto;
+    
     background: var(--cyan);
     opacity: 0;
     border-radius: 0.8rem;
