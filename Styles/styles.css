@@ -17,10 +17,11 @@
     transition: all 0.2s ease-in;
     font-size: 18px;
     font-family: Outfit;    
+    box-sizing: border-box;
     
 }
 body {
-    margin-top: 5rem;
+    padding: 5rem;
     background: var(--veryDarkBlue-mainBG);
 }
 
@@ -38,20 +39,23 @@ body {
 }
 
 .mainImg {
-      
     width: 18rem;
     height: 18rem;
     border-radius: 0.8rem;
+    order: -1;
 }
 
 .hover {
     position: absolute;
-    top: 6.5rem;
+    top: 6rem;
     left: auto;
     overflow: hidden;
-    display: flex;
+    
+    /*display: flex;
     justify-content: center;
     align-items: center;
+    */
+
     width: 18rem;
     height: 18rem;    
     background: var(--cyan);
@@ -62,11 +66,14 @@ body {
 .hover:hover {
     opacity: 0.5;
     cursor: pointer;
+    
 }
 
 .hoverImg {
+    
     width: 5rem;
     height: 5rem;
+    
 }
 
 .headerH1 {
