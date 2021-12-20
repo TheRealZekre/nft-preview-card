@@ -20,7 +20,7 @@
     
 }
 body {
-    margin-top: 20rem;
+    margin-top: 5rem;
     background: var(--veryDarkBlue-mainBG);
 }
 
@@ -46,7 +46,7 @@ body {
 
 .hover {
     position: absolute;
-    top: 21.5rem;
+    top: 6.5rem;
     left: auto;
     overflow: hidden;
     display: flex;
@@ -77,8 +77,10 @@ body {
     
 }
 
-.headerH1:hover {
-    color: var(--cyan);}
+.headerH1:hover,
+.jules:hover {
+    color: var(--cyan);
+}
 
 
 .paragraph {
@@ -90,7 +92,7 @@ body {
 
 .info {    
     display: flex;
-    align-items: center;    
+    align-items: center;
     justify-content: space-around;
     
 }
