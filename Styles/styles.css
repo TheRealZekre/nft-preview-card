@@ -90,15 +90,17 @@ body {
     
 }
 
-.info {    
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.info { 
+    display: flex; 
+    justify-content: space-between;
+       
     
 }
 .ethereum, .clock {
-       
+    display: flex;
+    align-items: center;
     
+
 }
 .ethereum-img {
     
