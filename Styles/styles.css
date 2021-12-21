@@ -47,14 +47,14 @@ body {
 
 .hover {
     position: absolute;
-    top: 6rem;
+    top: 6.53rem;
     left: auto;
     overflow: hidden;
     
-    /*display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    */
+    
 
     width: 18rem;
     height: 18rem;    
@@ -100,18 +100,15 @@ body {
 .info { 
     display: flex; 
     justify-content: space-between;
-       
+    gap: 6rem;
+          
     
 }
 .ethereum, .clock {
     display: flex;
     align-items: center;
-    
+}
 
-}
-.ethereum-img {
-    
-}
 
 .currency {
     color: var(--cyan);
