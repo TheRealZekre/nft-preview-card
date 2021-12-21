@@ -17,8 +17,7 @@
     transition: all 0.2s ease-in;
     font-size: 18px;
     font-family: Outfit;    
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 body {
     padding: 5rem;
@@ -49,13 +48,10 @@ body {
     position: absolute;
     top: 6.53rem;
     left: auto;
-    overflow: hidden;
-    
+    overflow: hidden;    
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
     width: 18rem;
     height: 18rem;    
     background: var(--cyan);
@@ -65,15 +61,12 @@ body {
 
 .hover:hover {
     opacity: 0.5;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
-.hoverImg {
-    
+.hoverImg {    
     width: 5rem;
-    height: 5rem;
-    
+    height: 5rem;    
 }
 
 .headerH1 {
@@ -121,12 +114,15 @@ body {
 }
 
 .line {
+    border: 1px solid var(--veryDarkBlue-line);
+    width: 100%;
+    margin: 1rem;
     
-   
 }
 
 .creation {
     display: flex;
+    gap: 0.5rem;
     color: var(--softBlue);
     
 }
@@ -136,8 +132,8 @@ body {
 }
 
 .avatar {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2.3rem;
+    width: 2.3rem;
     
 }
 
