@@ -24,6 +24,9 @@ body {
     background: var(--veryDarkBlue-mainBG);
 }
 
+
+/* --- Main is the whole card --- */
+
 .main {
     display: flex;
     flex-direction: column;
@@ -35,6 +38,7 @@ body {
     background-color: var(--veryDarkBlue-cardBG);
     border-radius: 0.8rem;
 }
+/*  --- Image on top ---  */
 
 .imgContainer {
     position: relative;
@@ -73,6 +77,7 @@ body {
     width: 5rem;
     height: 5rem;    
 }
+/* --- Header and cyan hover --- */
 
 .headerH1 {
     display: flex;
@@ -86,12 +91,15 @@ body {
     color: var(--cyan);
 }
 
+/* --- Paragraph --- */
 
 .paragraph {
     margin-left: 1rem;
     line-height: 1.6rem;
     color: var(--softBlue);
 }
+
+/* ---currency and date */
 
 .info { 
     display: flex; 
@@ -107,7 +115,6 @@ body {
     gap: 0.5rem;
 }
 
-
 .currency {
     color: var(--cyan);
 }
@@ -116,12 +123,13 @@ body {
     color: var(--softBlue);
 }
 
+/* --- The border --- */
 .line {
     border: 1px solid var(--veryDarkBlue-line);
     width: 90%;
     margin: 1rem;
 }
-
+/* ---Bottom picture and creator --- */
 .creation {
     display: flex;
     align-items: center;
@@ -140,6 +148,8 @@ body {
 .jules {
     color: var(--white);
 }
+
+/* --- Footer --- */
 
 .attribution { 
     font-size: 1vw;
