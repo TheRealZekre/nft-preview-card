@@ -91,6 +91,8 @@ body {
 .info { 
     display: flex; 
     justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 
@@ -120,8 +122,11 @@ body {
 
 .creation {
     display: flex;
+    align-items: center;
     gap: 0.5rem;
     color: var(--softBlue);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
     
 }
 
@@ -130,6 +135,8 @@ body {
 }
 
 .avatar {
+    border: 1px solid var(--white);
+    border-radius: 50%;
     height: 2.3rem;
     width: 2.3rem;
     
