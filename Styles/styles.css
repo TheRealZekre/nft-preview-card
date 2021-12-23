@@ -19,6 +19,7 @@
     font-family: Outfit;    
     box-sizing: border-box;    
 }
+
 body {
     padding: 5rem;
     background: var(--veryDarkBlue-mainBG);
@@ -33,7 +34,7 @@ body {
     justify-content: center;
     margin: auto;
     padding: 1rem;
-    width: 20rem;
+    width: 18em;
     height: 35rem;
     background-color: var(--veryDarkBlue-cardBG);
     border-radius: 0.8rem;
@@ -42,19 +43,27 @@ body {
 
 .imgContainer {
     position: relative;
-    width: 18rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16rem;
     height: 18rem;
     border-radius: 0.8rem;
     overflow: hidden;
 }
 
 .mainImg {
-    width: 18rem;
-    height: 18rem;
-    border-radius: 0.8rem; 
+    width: 16rem;
+    height: 16rem;
+    border-radius: 0.8rem;     
 }
 
-.hover {
+.hoverImg {    
+    width: 5rem;
+    height: 5rem;    
+}
+
+.hover {    
     position: absolute;
     top: 0;
     left: 0;
@@ -66,17 +75,16 @@ body {
     background: var(--cyan);
     opacity: 0;
     border-radius: 0.8rem;
+    overflow: hidden;    
 }
 
 .hover:hover {
     opacity: 0.5;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
-.hoverImg {    
-    width: 5rem;
-    height: 5rem;    
-}
+
+
 /* --- Header and cyan hover --- */
 
 .headerH1 {
@@ -99,7 +107,7 @@ body {
     color: var(--softBlue);
 }
 
-/* ---currency and date */
+/* --- Currency and date */
 
 .info { 
     display: flex; 
