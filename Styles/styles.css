@@ -36,18 +36,24 @@ body {
     border-radius: 0.8rem;
 }
 
-.mainImg {
+.imgContainer {
+    position: relative;
     width: 18rem;
     height: 18rem;
     border-radius: 0.8rem;
-    order: -1;
+    overflow: hidden;
+}
+
+.mainImg {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 0.8rem; 
 }
 
 .hover {
     position: absolute;
-    top: 6.53rem;
-    left: auto;
-    overflow: hidden;    
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +91,6 @@ body {
     margin-left: 1rem;
     line-height: 1.6rem;
     color: var(--softBlue);
-    
 }
 
 .info { 
@@ -105,19 +110,16 @@ body {
 
 .currency {
     color: var(--cyan);
-    
 }
 
 .days {
     color: var(--softBlue);
-    
 }
 
 .line {
     border: 1px solid var(--veryDarkBlue-line);
     width: 90%;
     margin: 1rem;
-    
 }
 
 .creation {
@@ -126,12 +128,6 @@ body {
     gap: 0.5rem;
     color: var(--softBlue);
     margin-left: 1rem;
-    margin-bottom: 1rem;
-    
-}
-
-.julesP {
-    
 }
 
 .avatar {
@@ -139,16 +135,11 @@ body {
     border-radius: 50%;
     height: 2.3rem;
     width: 2.3rem;
-    
 }
 
 .jules {
     color: var(--white);
-    
 }
-
-
-
 
 .attribution { 
     font-size: 1vw;
